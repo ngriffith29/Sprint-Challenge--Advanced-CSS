@@ -197,7 +197,7 @@ footer {
   padding: 0 15px;
 }
 .home .intro img {
-  border-radius: 20px;
+  border-radius: 15px;
 }
 .home .space-images {
   display: flex;
@@ -234,6 +234,23 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+}
+.home .walk .walk-text .btn :hover {
+  background-color: red;
+}
+.home .walk .walk-text .btn a {
+  display: flex;
+  padding-top: 8px;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
 }
 .home .walk .walk-img {
   width: 46%;
