@@ -32,15 +32,30 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
+
+
 1. What is the difference between an adaptive website and a fully responsive website?
+
+Responsive design means you change your design pattern to fit the space available. Adaptive means that your design has a lot of fixed layout sizes. 
 
 2. Describe what it means to be mobile first vs desktop first.
 
+Mobile first means you design the site to be more accesible to mobile users and the desktop design comes second. 
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+
+It allows all the font to scale accordingly.
+
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Pre-processing is using a compiler to give more power to writing css which in turn makes your code a lot cleaner
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is variables. Mixins were a little weird at first and I kept messing the syntax up so I would say those gave me the most problems.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -114,7 +129,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [ x ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
 * [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
