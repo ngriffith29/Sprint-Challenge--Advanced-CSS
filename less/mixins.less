@@ -1,1 +1,19 @@
 // Mixins Here
+
+.flex(){
+    display: flex;
+}
+
+.border-radius(){
+    border-radius: 15px;
+}
+
+
+.button(@bg-color, @width, @height,@hover-bg){
+    :hover{
+       background-color: @hover-bg;
+    }
+   background-color: @bg-color;
+   width: @width;
+   height: @height;
+}
