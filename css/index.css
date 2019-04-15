@@ -258,6 +258,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
+    margin-left: -18%;
   }
 }
 .home .walk .walk-text h3 {
@@ -308,7 +309,7 @@ footer {
   .home .walk .walk-img img {
     height: 400px;
     width: 400px;
-    margin-left: -80%;
+    margin-left: -88%;
     margin-bottom: 5%;
   }
 }
